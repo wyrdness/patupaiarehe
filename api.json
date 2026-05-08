@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/patupaiarehe",
     "maintainers": [
       {
@@ -16,72 +16,173 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "patupaiarehe",
     "name": "Patupaiarehe",
-    "aliases": [],
-    "category": "|_FAE_FOLKLORE_|",
-    "subcategory": "Unknown",
+    "aliases": [
+      { "name": "Turehu", "language": "Maori", "region": "Aotearoa / New Zealand" },
+      { "name": "Pakepakeha", "language": "Maori", "region": "Aotearoa / New Zealand" },
+      { "name": "Heketoro", "language": "Maori", "region": "specific iwi traditions" }
+    ],
+    "category": "FAE_FOLKLORE",
+    "subcategory": "Maori supernatural forest people",
     "tags": [
-      "folklore",
-      "mythology"
+      "maori",
+      "new-zealand",
+      "aotearoa",
+      "fairy-folk",
+      "forest",
+      "mountain",
+      "mist",
+      "supernatural-people"
     ],
     "status": "documented",
     "description": {
-      "summary": "Patupaiarehe (also called tūrehu) are fairy-like beings in Māori mythology—pale-skinned, light-haired supernatural people who dwell in mist-shrouded forests and mountaintops.",
-      "full": "Patupaiarehe (also called tūrehu) are fairy-like beings in Māori mythology—pale-skinned, light-haired supernatural people who dwell in mist-shrouded forests and mountaintops. **These mysterious beings predate human settlement** and represent the otherworldly inhabitants of Aotearoa's wilderness. Unlike most Polynesian peoples who are brown-skinned, patupaiarehe are described as having **white or very pale skin and red or fair hair**. They avoid sunlight, emerging at dawn, dusk, and during foggy weather. Patupaiarehe live in communities, play haunting music on flutes, and sometimes interact with humans—occasionally taking human partners or children."
+      "summary": "In Maori tradition, the patupaiarehe (also called turehu or pakepakeha) are pale-skinned, fair- or red-haired supernatural people of the misty forests, mountains, and high country of Aotearoa / New Zealand, regarded as he iwi atua - a 'people of the gods' rather than ordinary humans.",
+      "full": "Patupaiarehe are fairy-like supernatural beings in the traditions of Maori iwi (tribes) across both islands of Aotearoa / New Zealand. They are described as pale to fair-skinned, with blonde or red hair, light-coloured eyes, and untattooed faces, and as living in invisible communities deep in forests and on mist-shrouded mountain tops. Patupaiarehe are nocturnal or active in mist and fog and are said to be harmed or driven off by direct sunlight, fire, light, cooked food, and strong smells. In some accounts they are roughly human-sized, while certain Whanganui traditions describe them as standing more than two metres tall and Tuhoe traditions describe them as small. They are skilled musicians of the koauau and putorino flutes and use this music to lure people into the forest. Maori traditions describe specific encounters - for example, the explorer Ihenga at Mount Ngongotaha, the patupaiarehe woman Kaiheraki and the hunter Hautapu, and Hinerehia who is said to have taught Maori women the art of weaving. The tradition is treated by Maori communities as part of a living spiritual landscape, distinct from the European fairy tradition with which it has been compared."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Maori. The names patupaiarehe and turehu are inherited Maori terms; pakepakeha is a related variant sometimes proposed as one source for the modern Maori word pakeha (used for New Zealanders of European descent).",
+      "meaning": "There is no agreed gloss for patupaiarehe in standard reference works; the term denotes a class of supernatural forest people (he iwi atua).",
+      "first_use": "Recorded in 19th-century Maori manuscript traditions and ethnographies, including Sir George Grey's collections (1840s-1850s) and the work of James Cowan in the early 20th century."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_FAE_FOLKLORE_|",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "FAE_FOLKLORE",
+      "type": "Supernatural people",
+      "subtype": "Fairy folk / mountain and forest spirits",
+      "variant": "Maori (Aotearoa)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "ponaturi", "name": "Ponaturi", "relationship": "counterpart", "description": "Hostile sea-dwelling supernatural people in Maori tradition, also vulnerable to sunlight" },
+      { "id": "maero", "name": "Maero / Mohoao", "relationship": "related", "description": "Wild forest people of Maori tradition, distinct from patupaiarehe" },
+      { "id": "menehune", "name": "Menehune", "relationship": "similar", "description": "Hawaiian small forest-people tradition" },
+      { "id": "fae-folklore", "name": "European fairy folk", "relationship": "similar", "description": "Western fairy traditions to which patupaiarehe are often (loosely) compared" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Fair / pale skin", "description": "Patupaiarehe are described as pale-skinned, ranging from white-fair to a reddish or ochre tone in different iwi traditions", "frequency": "always" },
+        { "feature": "Blonde or red hair", "description": "Light-coloured hair is a defining feature", "frequency": "always" },
+        { "feature": "Light-coloured eyes", "description": "Eye colour described as ranging from light blue to black, but often pale", "frequency": "common" },
+        { "feature": "Untattooed", "description": "Distinctively never bearing the moko (tattoo) of human Maori", "frequency": "always" },
+        { "feature": "Variable stature", "description": "Most often human-sized; Whanganui accounts describe them as over two metres tall, Tuhoe accounts describe them as small", "frequency": "common" }
+      ],
+      "morphology": "Humanlike supernatural beings whose pallor, untattooed faces, and unusual hair clearly mark them as he iwi atua (a people of the spirit world) rather than ordinary humans."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Drawing mist and fog", "description": "Patupaiarehe can draw mist around themselves and travel in fog, hiding their movements", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Music and flute-playing", "description": "Skilled players of the koauau and putorino flutes; their music can entrance and lure humans", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Magical knowledge and chants", "description": "In some traditions they teach humans karakia (chants), nets, and weaving", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Vulnerability to sun, fire, and cooked food", "description": "Direct sunlight is fatal, and fire, light, cooking smells, and strongly scented mixtures repel them", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "colony",
+      "habitat_preference": ["misty mountain tops", "deep forest", "high country", "fog-belt ranges"],
+      "diet": "Prefer raw food and avoid cooked food; said to eat raw fish and forest produce",
+      "patterns": [
+        "Live in invisible villages in remote forest and on mountain tops",
+        "Active in mist, fog, and at night",
+        "Sometimes lure humans (especially women) into their realm",
+        "Can teach humans skills (weaving, fishing nets, chants)",
+        "Defend their territory; intruders may be killed or driven off"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Patupaiarehe traditions are known across Aotearoa / New Zealand, with named locations on both the North and South Islands.",
+      "continents": ["Oceania"],
+      "countries": ["New Zealand"],
+      "regions": [
+        "Aotearoa / New Zealand",
+        "North Island",
+        "South Island",
+        "Waikato",
+        "Coromandel",
+        "Te Urewera",
+        "Whanganui",
+        "Banks Peninsula",
+        "Fiordland and Takitimu Mountains"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Mount Pirongia",
+        "location": {
+          "description": "Volcanic peak in the Waikato region, traditionally a patupaiarehe stronghold",
+          "country": "New Zealand",
+          "region": "Waikato, North Island"
+        },
+        "peak_period": "Pre-European to present",
+        "notes": "One of the most-cited patupaiarehe locations in Maori tradition."
+      },
+      {
+        "name": "Mount Ngongotaha",
+        "location": {
+          "description": "Mountain on the western shore of Lake Rotorua",
+          "country": "New Zealand",
+          "region": "Bay of Plenty, North Island"
+        },
+        "peak_period": "Pre-European to present",
+        "notes": "Setting of the tradition of the explorer Ihenga's encounter with patupaiarehe."
+      },
+      {
+        "name": "Coromandel Range (Moehau to Te Aroha)",
+        "location": {
+          "description": "Mountain range on the Coromandel Peninsula",
+          "country": "New Zealand",
+          "region": "Coromandel, North Island"
+        },
+        "peak_period": "Pre-European to present",
+        "notes": "Patupaiarehe traditions widely associated with this range."
+      },
+      {
+        "name": "Te Urewera ranges",
+        "location": {
+          "description": "Heavily forested ranges of the eastern North Island, Tuhoe rohe",
+          "country": "New Zealand",
+          "region": "Te Urewera, North Island"
+        },
+        "peak_period": "Pre-European to present",
+        "notes": "Tuhoe traditions describe small patupaiarehe in this region."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-European",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Maori oral tradition; written documentation begins in the mid-19th century with Sir George Grey's manuscript collections."
+      },
+      "peak_activity_periods": [
+        { "period": "1840s-1920s", "description": "Period of major ethnographic documentation by Pakeha collectors and Maori informants, culminating in James Cowan's Fairy Folk Tales of the Maori (1925)." },
+        { "period": "1990s to present", "description": "Resurgence of Maori-led documentation through Te Ara Encyclopedia of New Zealand and iwi cultural organisations." }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The patupaiarehe tradition is deeply embedded in Maori cosmology and the spiritual geography of forests and mountains in Aotearoa. They are part of a wider Maori tradition of supernatural peoples (including ponaturi, maero, and tipua) inhabiting the land alongside human Maori.",
+      "earliest_accounts": "Documented in 19th-century Maori manuscripts collected by Sir George Grey and in subsequent ethnographies; the underlying oral traditions are pre-European.",
+      "folklore_connections": "Compared but not directly connected to European fairy traditions; in Maori cosmology they are linked to other supernatural peoples and to specific tipua (sacred natural features)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1840s", "event": "Sir George Grey collects Maori manuscript accounts of patupaiarehe traditions", "significance": "Earliest substantial written record", "source": "Grey, G. - Maori manuscript collection (Auckland Libraries)" },
+      { "date": "1925", "event": "James Cowan publishes Fairy Folk Tales of the Maori", "significance": "First major English-language synthesis of patupaiarehe traditions", "source": "Cowan, J. - Fairy Folk Tales of the Maori (1925)" },
+      { "date": "2006", "event": "Te Ara: The Encyclopedia of New Zealand publishes a peer-reviewed entry on patupaiarehe and ponaturi", "significance": "Authoritative modern Maori-informed reference", "source": "Te Ara Encyclopedia of New Zealand" }
+    ],
+    "modern_era": "Patupaiarehe traditions remain active in Maori cultural life, in iwi histories, in te reo Maori revitalisation, and in New Zealand literature and visual arts. They are increasingly framed within Maori-led knowledge systems rather than through colonial 'fairy' analogies."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,6 +193,7 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
@@ -99,28 +201,105 @@
     "audio": [],
     "trace": []
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "He iwi atua - a people of the spirit world",
+        "description": "In Maori tradition, patupaiarehe are real supernatural beings, members of the spiritual landscape of Aotearoa, with their own communities and territories.",
+        "proponents": ["Maori oral tradition"],
+        "evidence_cited": ["Iwi-specific traditions across both islands", "Continuity of named locations as patupaiarehe sites"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Cultural-memory hypothesis (earlier inhabitants)",
+        "description": "A long-running but contested hypothesis suggested patupaiarehe traditions preserve a memory of earlier non-Polynesian inhabitants of New Zealand. This 'pre-Maori' theory is rejected by mainstream archaeology and Maori scholarship.",
+        "proponents": ["Some early 20th-century Pakeha ethnographers"],
+        "evidence_cited": ["Pale-skin descriptions in tradition"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Folkloric and cosmological figures",
+        "description": "Folklorists and Maori scholars treat patupaiarehe as authentic Maori spiritual figures within a coherent cosmology, rather than as evidence of literal hidden peoples.",
+        "proponents": ["Te Ara Encyclopedia of New Zealand contributors", "Maori cultural authorities"],
+        "evidence_cited": ["Embedding in iwi cosmology", "Role in moral and ecological teaching"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Iwi-specific patupaiarehe traditions across Waikato, Tuhoe, Whanganui, Ngati Whakaue, Ngai Tahu, and other iwi",
+        "Stories of patupaiarehe at Mount Pirongia, Mount Ngongotaha, the Coromandel Range, Te Urewera, and the Tahkitimu Mountains"
+      ],
+      "stories": [
+        "Ihenga's encounter with patupaiarehe at Mount Ngongotaha",
+        "Kaiheraki and the hunter Hautapu (South Island tradition)",
+        "Hinerehia, said to have taught weaving to Maori women",
+        "The Ngati Rongou men killed for trespassing into patupaiarehe territory"
+      ],
+      "beliefs": "Patupaiarehe are part of a living Maori spiritual landscape; specific mountains and ranges are recognised as their territory and treated with appropriate cultural respect."
+    },
+    "indigenous": {
+      "cultures": ["Maori (multiple iwi)"],
+      "significance": "Patupaiarehe are an integral part of Maori cosmology, embedded in iwi histories, place names, and tikanga (cultural practice).",
+      "sensitivity_note": "Patupaiarehe traditions are taonga (treasures) of Maori iwi. Their meaning is determined within Maori knowledge systems and should not be reduced to European 'fairy' frameworks.",
+      "respect_guidelines": "Consult iwi cultural authorities for iwi-specific patupaiarehe knowledge; cite Maori sources directly; do not commercialise or trivialise patupaiarehe in cryptid framings."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "James Cowan - Fairy Folk Tales of the Maori (1925)",
+        "Patricia Grace and other contemporary Maori writers reference patupaiarehe",
+        "Te Ara Encyclopedia of New Zealand - 'Patupaiarehe' entry"
+      ],
+      "film_tv": [
+        "References in New Zealand film, theatre, and television drawing on Maori folklore"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "New Zealand place names and iwi cultural materials referencing patupaiarehe"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Sir George Grey", "affiliation": "Colonial Governor / amateur ethnographer", "contribution": "Mid-19th-century collection of Maori manuscript traditions including patupaiarehe accounts", "period": "1840s-1850s" },
+      { "name": "James Cowan", "affiliation": "New Zealand journalist and historian", "contribution": "Fairy Folk Tales of the Maori (1925) and other works documenting patupaiarehe traditions", "period": "Early 20th century" }
+    ],
+    "organizations": [
+      { "name": "Te Ara: The Encyclopedia of New Zealand", "url": "https://teara.govt.nz/en/patupaiarehe", "focus": "Authoritative Maori-informed reference on Aotearoa's history and culture" }
+    ],
+    "ongoing_studies": "Iwi-led documentation and revitalisation of patupaiarehe traditions continues through Te Ara, Maori studies departments, and iwi cultural organisations."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-patupaiarehe",
+      "type": "website",
+      "title": "Patupaiarehe",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Patupaiarehe",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "teara-patupaiarehe",
+      "type": "website",
+      "title": "Patupaiarehe",
+      "publication": "Te Ara: The Encyclopedia of New Zealand",
+      "url": "https://teara.govt.nz/en/patupaiarehe",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "cowan-1925",
+      "type": "book",
+      "title": "Fairy Folk Tales of the Maori",
+      "authors": ["James Cowan"],
+      "publication": "Whitcombe & Tombs",
+      "date": "1925"
+    }
+  ]
 }

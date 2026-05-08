@@ -1,36 +1,15 @@
-# Patupaiarehe - Source Documentation
+# Sources & References — Patupaiarehe
 
-## Overview
+Bibliography compiled from `api.json`. To add a source, edit `api.json` and regenerate.
 
-This document provides comprehensive source documentation for Patupaiarehe. The entry includes 58+ sources from academic, historical, cultural, and research contexts.
+## Books
 
-## Source Categories
+- James Cowan. (1925). *Fairy Folk Tales of the Maori*. Whitcombe & Tombs
 
-### Primary Sources
-- Original texts and historical documents
-- Religious texts and manuscripts
-- Cultural repositories and oral traditions
+## Websites
 
-### Academic Sources
-- Peer-reviewed research
-- University press publications
-- Scholarly monographs
-
-### Cultural Resources
-- Indigenous knowledge keepers
-- Cultural organizations
-- Community documentation
-
-### Contemporary Research
-- Modern investigations
-- Digital archives
-- Ongoing scholarly work
-
-## Full Bibliography
-
-[Detailed sources listed in main README.md file]
+- *Patupaiarehe*. Wikipedia. <https://en.wikipedia.org/wiki/Patupaiarehe>
+- *Patupaiarehe*. Te Ara: The Encyclopedia of New Zealand. <https://teara.govt.nz/en/patupaiarehe>
 
 ---
-
-*Last Updated: 2026-01-14*  
-*Version: 1.0.0*
+_Auto-generated from `api.json`._
